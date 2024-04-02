@@ -1,0 +1,60 @@
+$rt-namespace: 'KazamaToasts';
+$rt-mobile: 'only screen and (max-width : 480px)' !default;
+
+:root {
+  --kazama-color-light: #fff;
+  --kazama-color-dark: #1a1e23;
+  --kazama-color-info: #3498db;
+  --kazama-color-success: #10D960;
+  --kazama-color-warning: #F79418;
+  --kazama-color-error: #e74c3c;
+  --kazama-color-transparent: rgba(255, 255, 255, 0.7);
+
+  --kazama-icon-color-info: var(--kazama-color-info);
+  --kazama-icon-color-success: var(--kazama-color-success);
+  --kazama-icon-color-warning: var(--kazama-color-warning);
+  --kazama-icon-color-error: var(--kazama-color-error);
+
+  --kazama-toast-width: 320px;
+  --kazama-toast-offset: 16px;
+  --kazama-toast-top: max(var(--kazama-toast-offset), env(safe-area-inset-top));
+  --kazama-toast-right: max(var(--kazama-toast-offset), env(safe-area-inset-right));
+  --kazama-toast-left: max(var(--kazama-toast-offset), env(safe-area-inset-left));
+  --kazama-toast-bottom: max(var(--kazama-toast-offset), env(safe-area-inset-bottom));
+  --kazama-toast-background: #fff;
+  --kazama-toast-min-height: 64px;
+  --kazama-toast-max-height: 800px;
+  --kazama-toast-bd-radius: 0.25rem;
+  --kazama-font-family: sans-serif;
+  --kazama-z-index: 9999;
+
+  --kazama-text-color-light: #757575;
+  --kazama-text-color-dark: #fff;
+
+  //Used only for colored theme
+  --kazama-text-color-info: #fff;
+  --kazama-text-color-success: #fff;
+  --kazama-text-color-warning: #fff;
+  --kazama-text-color-error: #fff;
+
+  --kazama-spinner-color: #616161;
+  --kazama-spinner-color-empty-area: #e0e0e0;
+
+  // Used when no type is provided
+  --kazama-color-progress-light: linear-gradient(
+    to right,
+    #EE1979,
+    #F79418
+  );
+  // Used when no type is provided
+  --kazama-color-progress-dark: linear-gradient(
+    to right,
+    #EE1979,
+    #F79418
+  );
+  --kazama-color-progress-info: var(--kazama-color-info);
+  --kazama-color-progress-success: var(--kazama-color-success);
+  --kazama-color-progress-warning: var(--kazama-color-warning);
+  --kazama-color-progress-error: var(--kazama-color-error);
+  --kazama-color-progress-bgo: 0.2;
+}

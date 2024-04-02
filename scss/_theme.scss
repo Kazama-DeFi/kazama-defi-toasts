@@ -1,0 +1,57 @@
+.#{$rt-namespace}__toast {
+  &-theme--dark {
+    background: var(--kazama-color-dark);
+    color: var(--kazama-text-color-dark);
+  }
+  &-theme--light {
+    background: var(--kazama-color-light);
+    color: var(--kazama-text-color-light);
+  }
+  &-theme--colored#{&}--default {
+    background: var(--kazama-color-light);
+    color: var(--kazama-text-color-light);
+  }
+  &-theme--colored#{&}--info {
+    color: var(--kazama-text-color-info);
+    background: var(--kazama-color-info);
+  }
+  &-theme--colored#{&}--success {
+    color: var(--kazama-text-color-success);
+    background: var(--kazama-color-success);
+  }
+  &-theme--colored#{&}--warning {
+    color: var(--kazama-text-color-warning);
+    background: var(--kazama-color-warning);
+  }
+  &-theme--colored#{&}--error {
+    color: var(--kazama-text-color-error);
+    background: var(--kazama-color-error);
+  }
+}
+
+.#{$rt-namespace}__progress-bar {
+  &-theme--light {
+    background: var(--kazama-color-progress-light);
+  }
+  &-theme--dark {
+    background: var(--kazama-color-progress-dark);
+  }
+  &--info {
+    background: var(--kazama-color-progress-info);
+  }
+  &--success {
+    background: var(--kazama-color-progress-success);
+  }
+  &--warning {
+    background: var(--kazama-color-progress-warning);
+  }
+  &--error {
+    background: var(--kazama-color-progress-error);
+  }
+  &-theme--colored#{&}--info,
+  &-theme--colored#{&}--success,
+  &-theme--colored#{&}--warning,
+  &-theme--colored#{&}--error {
+    background: var(--kazama-color-transparent);
+  }
+}

@@ -1,0 +1,28 @@
+.#{$rt-namespace}__close-button {
+  color: #fff;
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-right: 5px;
+  transition: 0.3s ease;
+  align-self: flex-start;
+  z-index: 1;
+  &--light {
+    color: #000;
+    opacity: 0.3;
+  }
+
+  & > svg {
+    fill: #a6a7aa;
+    height: 16px;
+    width: 14px;
+  }
+
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
+}
