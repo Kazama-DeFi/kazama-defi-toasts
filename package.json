@@ -1,8 +1,8 @@
 {
-  "version": "10.0.5",
+  "version": "1.0.0",
   "license": "MIT",
   "typings": "dist/index.d.ts",
-  "description": "React notification made easy",
+  "description": "Toasts used for Kazama DeFi (Fadi Khadra's React Toastify)",
   "keywords": [
     "react",
     "notification",
@@ -56,13 +56,10 @@
   "name": "kazama-defi-toasts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fkhadra/kazama-defi-toasts.git"
+    "url": "git+https://github.com/Kazama-DeFi/kazama-defi-toasts.git"
   },
   "author": "Fadi Khadra  <fdkhadra@gmail.com> (https://fkhadra.github.io)",
-  "bugs": {
-    "url": "https://github.com/fkhadra/kazama-defi-toasts/issues"
-  },
-  "homepage": "https://github.com/fkhadra/kazama-defi-toasts#readme",
+  "homepage": "https://github.com/fkhadra",
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^2.2.4",
     "@cypress/code-coverage": "^3.12.18",
